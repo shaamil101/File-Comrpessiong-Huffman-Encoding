@@ -8,9 +8,7 @@ import java.io.IOException;
  * then writes it.  On closing writes an additional byte holding
  * the number of valid bits in the final byte written.
  * 
- * @author Scot Drysdale
- * @author Chris Bailey-Kellogg, Spring 2016, bits are now boolean
- * @author CBK, Fall 2016, max to write (to avoid filling filesystem when have infinite loop)
+ * @author Shaamil and Nicolas
  */
 public class BufferedBitWriter {
 	private byte currentByte;     	// The byte that is being filled
