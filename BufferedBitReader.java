@@ -5,8 +5,7 @@ import java.io.*;
  * Assumes that the last byte of the file contains the number of
  * valid bits in the previous byte.
  * 
- * @author Scot Drysdale
- * @author Chris Bailey-Kellogg, Spring 2016, now returns a boolean instead of an int;
+ * @author Shaamil and Nicolas
  * 			throws an exception when EOF, with hasNext() method to test before reading (or could try/catch)
  */
 public class BufferedBitReader {
